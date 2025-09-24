@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-b from-gray-900 via-gray-800 to-black text-white;
+  font-family: 'Inter', sans-serif;
+}
+.card {
+  @apply p-6 rounded-xl bg-white/10 shadow-lg hover:scale-105 transition;
+}
